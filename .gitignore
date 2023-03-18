@@ -1,0 +1,9 @@
+#release bins
+/release/
+
+#some my mess
+/backup/
+
+# generated and temporary files
+*.bak
+*.com
