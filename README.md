@@ -1,5 +1,5 @@
 # SIMD95
-Simple hack for enabling SSE/AVX instructions on DOS and Windows 95/98~/Me~.
+Simple hack for enabling SSE/AVX instructions on DOS and Windows 95/98~~/Me~~.
 
 ## Requirements
 CPU with SSE support, program is designed to be run in Virtual Machine.
@@ -13,7 +13,7 @@ C:\simd95.com
 
 And reboot a system. Don't run program directly, it must be run from real mode before memory manager is loaded (!).
 
-(You can download binary in releases)
+You can download `simd95.com` in releases: https://github.com/JHRobotics/simd95/releases
 
 ## Behaviour
 DOS and Windows 95 doesn't support SSE instruction set, so this program will turn on SSE and AVX and these instructions will be exposed to user programs.
