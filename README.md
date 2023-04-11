@@ -1,5 +1,5 @@
 # SIMD95
-Simple hack for enabling SSE/AVX instructions on DOS and Windows 95/98/Me.
+Simple hack for enabling SSE/AVX instructions on DOS and Windows 95/98~/Me~.
 
 ## Requirements
 CPU with SSE support, program is designed to be run in Virtual Machine.
@@ -19,6 +19,9 @@ And reboot a system. Don't run program directly, it must be run from real mode b
 DOS and Windows 95 doesn't support SSE instruction set, so this program will turn on SSE and AVX and these instructions will be exposed to user programs.
 
 Windows 98 and Me already supporting SSE, so behaviour is changed only with usability of AVX.
+
+## Windows Me
+Windows Me hasn't real mode support, there isn't easy way to make this program work in Millennium edition.
 
 ## Disadvantages
 You cannot have two or more application running with new instructions or one multi-thread application.
